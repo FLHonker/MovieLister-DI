@@ -1,4 +1,9 @@
 # MovieLister-DI
+
+@author:Frank Liu
+@email:frankliu624@gmail.com
+@blog:<https://flhonker.github.io>
+
 软件构件与中间件——基于反向控制来实现MovieList调用MovieFinder的功能
 
 MovieLister的3中实现方式：传统面向对象方法，构造方法依赖注入，setter方法依赖注入。Java实现。
@@ -18,4 +23,3 @@ JDK1.8，Windows10_x64
 
 传统的面向对象方法需要创建它所依赖的对象；反向控制把创建对象的权利交给框架,是框架的重要特征。区别于构造方法注入，setter依赖注入首先使用默认的构造方法创建组件对象，然后调用一些setter方法设置组件的相关属性。
 IOC模式，系统中通过引入实现了IOC模式的IOC容器，即可由IOC容器来管理对象的生命周期、依赖关系等，从而使得应用程序的配置和依赖性规范与实际的应用程序代码分开。其中一个特点就是通过文本的配件文件进行应用程序组件间相互关系的配置，而不用重新修改并编译具体的代码。
-
