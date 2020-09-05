@@ -1,7 +1,9 @@
 # MovieLister-DI
 
 @author:Frank Liu
-@email:frankliu624@gmail.com
+
+@email:frankliu624@outlook.com
+
 @blog:<https://flhonker.github.io>
 
 软件构件与中间件——基于反向控制来实现MovieList调用MovieFinder的功能
@@ -11,7 +13,9 @@ MovieLister的3中实现方式：传统面向对象方法，构造方法依赖�
 ### 实验要求：
 
 1）	基于传统的面向对象的方法来实现电影的查找和显示。
+
 2）	使用反向控制中的构造函数法来实现电影的查找和显示。
+
 3）	使用反向控制中的get/set函数法来实现电影的查找和显示。
 
 
